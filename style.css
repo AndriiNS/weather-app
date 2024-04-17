@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #bcffb2;
+  margin: 10px;
+}
+.card {
+  max-width: 470px;
+  margin: 50px auto 0;
+  background: linear-gradient(150deg, #8ff580, #4aa83c);
+  padding: 40px 35px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.search input {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: 0;
+  flex: 1;
+  border: none;
+  color: #7acf6d;
+}
+.search input::placeholder {
+  color: #4aa83c;
+}
+.search button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease 0s;
+}
+.search button:hover {
+  scale: 1.1;
+}
+.search button img {
+  width: 30px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+}
+.col img {
+  max-width: 40px;
+}
+.humidity {
+  font-size: 28px;
+}
+.wind {
+  font-size: 28px;
+}
+.adds {
+  font-size: 16px;
+}
+.city-name {
+  margin: 10px 0;
+}
+.weather {
+  display: none;
+}
+.weather-type {
+  font-size: 30px;
+  color: #00eeff;
+  margin-bottom: 20px;
+}
+.error {
+  color: red;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  display: none;
+}
